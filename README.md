@@ -1,11 +1,21 @@
 ## Project Name 
-Business analytics
+Banque Data Insights: A 360° Customer Analytics Project"
 . 
   
 ## Project Idea 
-This project focuses on analyzing an e-commerce dataset to understand customer behavior, sales performance, and business trends.             
+
+The goal of this project is to leverage the bank's historical data (transactions, loans, and customer profiles) to build a 360-degree view of the customer. By integrating these datasets, the project aims to:
+
+Predict Loan Risk: Identify the characteristics of customers likely to "Default" on loans (using the Fact_Loans status).
+
+Customer Segmentation: Group customers by spending habits, income brackets, and geographic location to tailor marketing for premium accounts (Gold/Platinum).
+
+Branch Optimization: Evaluate branch performance by comparing employee counts and branch size against transaction volumes and loan approvals.
+
+Transaction Behavioral Analysis: Detect trends in channel usage (ATM vs. Online vs. Branch) to optimize digital transformation strategies.    
  
-Team Members 
+## Team Members 
+
 1.	Amr Shaaban  
 2.	Rawan Mahmoud  
 3. Omnia Magdy
@@ -17,42 +27,40 @@ Team Members
 ## Project Plan 
 Responsibilities:
 
-1-Understand dataset structure (Orders, Sales, Profit, Region, Category, Segment, etc.)
+-Phase 1: Data Preprocessing & Integration
+Linking Datasets: Establish relationships between Dim_Customers, Dim_Accounts, Fact_Transactions, and Fact_Loans using IDs.
 
-2-Perform data cleaning (handle missing values, duplicates, formatting issues)
+Data Cleaning: Handle any missing values in Monthly_Income or Interest_Rate.
 
-3-Conduct Exploratory Data Analysis (EDA)
+Feature Engineering: Create new metrics such as "Debt-to-Income Ratio," "Average Transaction Value," and "Customer Tenure."
 
-4-Analyze:
+-Phase 2: Exploratory Data Analysis (EDA)
+Demographic Insights: Analyze which cities or age groups hold the highest balances.
 
-5-Sales & Profit trends
+Loan Health: Visualize the distribution of Active, Closed, and Defaulted loans across different Income_Brackets.
 
-6-Regional performance
+Channel Preference: Identify if younger customers (using Customer_Age) prefer Online transactions over Branch visits.
 
-7-Product category performance
+-Phase 3: Predictive & Descriptive Modeling
+Risk Scoring: Develop a simple scoring model to identify high-risk loan applicants based on historical Default patterns.
 
-8-Customer segment behavior
+Customer Tiering: Use clustering to identify "VIP" customers who are eligible for higher interest rates or credit limits.
 
-9-Discount impact on profit
+Trend Forecasting: Analyze transaction volume by Month and Day Name to predict peak times for branch staffing.
 
-10-Create dashboards (Power BI / Tableau / Excel)
+-Phase 4: Visualization & Reporting
+Executive Dashboard: A high-level view of total loan amounts, total deposits, and default rates.
 
-11-Provide actionable business insights
+Operational Dashboard: Detailed metrics for branch managers (e.g., performance of Branch_1 vs Branch_20 based on Employees_Count).
 
-1.	Research & Analysis 
-o	Audience personas 
-2.	Visual Identity 
-o	Logo design 
-3.	Main Designs 
-o	Poster 
-4.	Complementary Products 
-5.	Review & Finalization 
-6.	Final Presentation 
+Customer Profile Cards: A tool for front-line staff to see a customer’s full history (Loans + Transactions) during a visit.
+
+-Phase 5: Strategy Recommendation
+Provide actionable insights, such as: "Increase digital marketing in Giza for customers aged 25-35" or "Review credit policies for the 'Low' income bracket to reduce the 8% default rate." 
   
 # Instructor 
 
 Amal Mahmoud
 
-# Instructor 
 
 You can find the full project files here: https://drive.google.com/drive/quota
