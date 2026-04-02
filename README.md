@@ -63,4 +63,4 @@ Provide actionable insights, such as: "Increase digital marketing in Giza for cu
 Amal Mahmoud
 
 
-You can find the full project files here: https://drive.google.com/drive/quota
+You can find the full project files here: https://drive.google.com/drive/folders/1nQd1_qQEXpOduibXZb5K9H1LLc_XEedk?usp=drive_link
