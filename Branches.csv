@@ -1,0 +1,21 @@
+Branch_ID,Branch_Name,City,Employees_Count,Open_Date
+1,Branch_1,Assiut - Upper,19,7/24/2005
+2,Branch_2,Assiut - Upper,29,6/30/2010
+3,Branch_3,Giza - GC,20,7/9/2021
+4,Branch_4,Cairo GC,17,3/31/2018
+5,Branch_5,Mansoura - Delta,14,9/2/2005
+6,Branch_6,Cairo GC,25,3/21/2010
+7,Branch_7,Tanta - Delta,13,8/3/2017
+8,Branch_8,Giza - GC,38,12/11/2009
+9,Branch_9,Mansoura - Delta,29,2/26/2023
+10,Branch_10,Cairo GC,22,8/29/2020
+11,Branch_11,Mansoura - Delta,33,3/27/2011
+12,Branch_12,Giza - GC,25,2/15/2022
+13,Branch_13,Alexandria - Delta,18,1/30/2007
+14,Branch_14,Mansoura - Delta,18,1/19/2013
+15,Branch_15,Alexandria - Delta,28,2/7/2023
+16,Branch_16,Cairo GC,41,1/10/2017
+17,Branch_17,Cairo GC,36,10/8/2006
+18,Branch_18,Tanta - Delta,30,8/9/2023
+19,Branch_19,Assiut - Upper,35,12/13/2017
+20,Branch_20,Giza - GC,16,1/11/2006
