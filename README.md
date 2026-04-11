@@ -1,6 +1,6 @@
 ## Project Name
 
-CareAnalytics
+Healthcare Analytics
 
 ## Project Idea
 
