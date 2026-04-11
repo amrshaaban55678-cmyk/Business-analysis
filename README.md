@@ -1,19 +1,11 @@
 ## Project Name 
-Banque Data Insights: A 360° Customer Analytics Project"
-. 
+Hospital Operations & Patient Experience Analytics. 
   
 ## Project Idea 
 
-The goal of this project is to leverage the bank's historical data (transactions, loans, and customer profiles) to build a 360-degree view of the customer. By integrating these datasets, the project aims to:
+This project focuses on analyzing hospital data to improve operational efficiency, reduce waiting times, enhance patient satisfaction, and identify high-risk cases.
+The goal is to transform raw healthcare data into actionable insights through data cleaning, analysis, and interactive dashboards.
 
-Predict Loan Risk: Identify the characteristics of customers likely to "Default" on loans (using the Fact_Loans status).
-
-Customer Segmentation: Group customers by spending habits, income brackets, and geographic location to tailor marketing for premium accounts (Gold/Platinum).
-
-Branch Optimization: Evaluate branch performance by comparing employee counts and branch size against transaction volumes and loan approvals.
-
-Transaction Behavioral Analysis: Detect trends in channel usage (ATM vs. Online vs. Branch) to optimize digital transformation strategies.    
- 
 ## Team Members 
 
 1.	Amr Shaaban  
@@ -25,42 +17,45 @@ Transaction Behavioral Analysis: Detect trends in channel usage (ATM vs. Online 
 
   
 ## Project Plan 
-Responsibilities:
 
--Phase 1: Data Preprocessing & Integration
-Linking Datasets: Establish relationships between Dim_Customers, Dim_Accounts, Fact_Transactions, and Fact_Loans using IDs.
+# Responsibilities:
 
-Data Cleaning: Handle any missing values in Monthly_Income or Interest_Rate.
+Based on the actual analysis of your file (hospital_ops_cx_enriched_dirty.csv), here is the condensed Project Proposal in 4 clear steps, highlighting how you will turn raw data into actionable insights:
 
-Feature Engineering: Create new metrics such as "Debt-to-Income Ratio," "Average Transaction Value," and "Customer Tenure."
+1. Data Quality Audit
+Identify current issues in the file that compromise reporting accuracy:
 
--Phase 2: Exploratory Data Analysis (EDA)
-Demographic Insights: Analyze which cities or age groups hold the highest balances.
+Remove 95 duplicate records to correct financial and volume metrics.
 
-Loan Health: Visualize the distribution of Active, Closed, and Defaulted loans across different Income_Brackets.
+Fix naming inconsistencies (e.g., merging "Cardiology" and "orthopedics" variations).
 
-Channel Preference: Identify if younger customers (using Customer_Age) prefer Online transactions over Branch visits.
+Unify formats for dates and numbers to enable accurate time-series and financial analysis.
 
--Phase 3: Predictive & Descriptive Modeling
-Risk Scoring: Develop a simple scoring model to identify high-risk loan applicants based on historical Default patterns.
+2. Digital Cleaning & ETL
+Use Power Query or Python to scrub spelling errors and trailing spaces.
 
-Customer Tiering: Use clustering to identify "VIP" customers who are eligible for higher interest rates or credit limits.
+Convert treatment cost strings into calculable numeric values.
 
-Trend Forecasting: Analyze transaction volume by Month and Day Name to predict peak times for branch staffing.
+Handle missing values (Nulls) strategically to ensure patient satisfaction ratings are not skewed.
 
--Phase 4: Visualization & Reporting
-Executive Dashboard: A high-level view of total loan amounts, total deposits, and default rates.
+3. Interactive Dashboard Development
+Design a high-impact dashboard in Power BI or Excel focusing on:
 
-Operational Dashboard: Detailed metrics for branch managers (e.g., performance of Branch_1 vs Branch_20 based on Employees_Count).
+Operational KPIs: Wait times, bed occupancy rates, and treatment costs.
 
-Customer Profile Cards: A tool for front-line staff to see a customer’s full history (Loans + Transactions) during a visit.
+Patient Experience: NPS score tracking and feedback category analysis.
 
--Phase 5: Strategy Recommendation
-Provide actionable insights, such as: "Increase digital marketing in Giza for customers aged 25-35" or "Review credit policies for the 'Low' income bracket to reduce the 8% default rate." 
-  
-# Instructor 
+Comparative Insights: Performance benchmarking by branch, department, and shift.
+
+4. Delivery & Strategic Support
+Deliver a "Cleaned" dataset optimized for any future analytics projects.
+
+Provide an Insights Report identifying the top 3 operational bottlenecks discovered.
+
+Ensure sustainability with a one-click update process and post-delivery support for adjustments.
+
+## Instructor 
 
 Amal Mahmoud
 
-
-You can find the full project files here: https://drive.google.com/drive/folders/1nQd1_qQEXpOduibXZb5K9H1LLc_XEedk?usp=drive_link
+You can find the full project files here: https://docs.google.com/spreadsheets/d/1o3LGxYZkVShGY0ye5OcaUpTTm3KrIJjO/edit?usp=drive_link&ouid=102688035677570081261&rtpof=true&sd=true
