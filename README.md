@@ -11,11 +11,15 @@ Financial & Clinical Outcomes: Correlating treatment costs and insurance types w
 
 ## Team Members
 
-1-Amr Shaaban
-2-Rawan Mahmoud
-3-Omnia Magdy
-4-Mostafa Samir
-5-Fatma Ali
+Amr Shaaban
+
+Rawan Mahmoud
+
+Omnia Magdy
+
+Mostafa Samir
+
+Fatma Ali
 
 ## Project Plan
 
