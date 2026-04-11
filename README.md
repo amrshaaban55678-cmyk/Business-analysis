@@ -23,7 +23,7 @@ Fatma Ali
 
 ## Project Plan
 
-# Responsibilities:
+### Responsibilities:
 
 Phase 1: Data Cleaning & Pre-processing
 
