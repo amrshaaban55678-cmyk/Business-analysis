@@ -1,6 +1,6 @@
 ## Project Name
 
-Medi-Optima Insights: Optimizing Hospital Operations & Patient Experience.
+CareAnalytics
 
 ## Project Idea
 
@@ -70,5 +70,6 @@ Highlight the most profitable and efficient hospital branches to serve as models
 Amal Mahmoud
 
 ## You can review the dataset file uploaded here.
+
 https://drive.google.com/file/d/1vOgkDKHPbQZXSKCRg8-_K6dfVXlTYSm6/view?usp=drive_link
 
